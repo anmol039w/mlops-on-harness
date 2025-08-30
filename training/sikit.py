@@ -11,7 +11,7 @@ MAX_ITER = 200
 ARTIFACT_DIR = "artifacts"
 MODEL_NAME = "iris-logreg"
 
-MLFLOW_TRACKING_URI = "http://mlflow.mlflow:5000"    # change if your svc differs
+MLFLOW_TRACKING_URI = "http://mlflow.default:5000"    # change if your svc differs
 MLFLOW_EXPERIMENT_NAME = "mlops-demo"
 
 # ---- MLflow config ----
